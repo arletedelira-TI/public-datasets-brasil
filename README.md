@@ -33,3 +33,8 @@ A tabela abaixo serve como o índice mestre do projeto. Os links mapeiam tanto a
 | **Gov.br** | [Dados.gov.br](https://dados.gov.br/) | 📁 [Acessar](./datasets/govbr/) | Catálogo nacional de dados públicos e portais de transparência federal. |
 
 ---
+# 🚧 Status do Projeto
+
+Este projeto está em desenvolvimento ativo. Novas fontes de dados, documentações estruturadas e pipelines de automação para extração de payloads serão adicionados continuamente seguindo o roadmap de estudos em engenharia de dados.
+
+> ⭐ Nota de Organização: Este repositório funciona como a espinha dorsal e índice das bases de dados públicas brasileiras. Sinta-se à vontade para clonar e utilizar os guias ou scripts em suas próprias esteiras de dados.
