@@ -2,43 +2,34 @@
 
 > Repositório central que reúne e organiza conjuntos de dados públicos brasileiros utilizados em estudos, análises e projetos de Ciência de Dados, Engenharia de Dados e Inteligência Artificial.
 
-Este repositório funciona como um catálogo das principais fontes de dados públicos do Brasil. Cada instituição possui (ou terá) seu próprio repositório, contendo documentação, scripts, exemplos de uso e materiais relacionados.
+Este repositório funciona como um catálogo das principais fontes de dados públicos do Brasil. Cada instituição possui (ou terá) seu próprio diretório ou repositório dedicado, contendo documentação, scripts de extração, exemplos de uso e materiais relacionados.
 
 ## 🎯 Objetivo
 
-Centralizar o acesso às principais bases de dados públicas brasileiras, facilitando a descoberta, reutilização e documentação dos datasets utilizados em projetos de análise de dados e IA.
+Centralizar o acesso às principais bases de dados públicas brasileiras, facilitando a descoberta, a reutilização e a documentação dos datasets utilizados em projetos de análise de dados e IA.
 
 ## 📚 Conteúdo
 
-Em breve este repositório conterá:
+Este repositório foi estruturado para conter:
 
-- Catálogo de instituições públicas
-- Descrição das principais bases de dados
-- Links para os repositórios relacionados
-- Guias de utilização
-- Exemplos de aplicações
-- Referências oficiais
-- Roadmap de novas fontes de dados
+- 🏛️ Catálogo de instituições públicas com links para portais oficiais de dados abertos.
+- 📁 Diretórios locais com scripts de ingestão (Python/R), modelagem SQL e documentação de esquemas.
+- 💡 Exemplos práticos de aplicações, análises exploratórias e treinamento de modelos de IA.
+- 🗺️ Guias de utilização e boas práticas para lidar com grandes volumes de dados públicos (*Big Data*).
 
 ## 🏛️ Fontes de Dados
 
-> Em construção...
+A tabela abaixo serve como o índice mestre do projeto. Os links mapeiam tanto a origem oficial dos dados quanto as pastas de laboratório internas deste repositório.
 
-| Instituição | Repositório | Descrição |
-|-------------|-------------|-----------|
-| IBGE | Em breve | Estatísticas, censos, municípios, SIDRA e indicadores socioeconômicos |
-| BACEN | Em breve | Indicadores econômicos, séries temporais e dados financeiros |
-| DATASUS | Em breve | Dados públicos de saúde |
-| INPI | Em breve | Marcas, patentes e propriedade intelectual |
-| INEP | Em breve | Educação, ENEM, IDEB e Censo Escolar |
-| INMET | Em breve | Dados meteorológicos |
-| INPE | Em breve | Dados ambientais, queimadas e desmatamento |
-| Portal Brasileiro de Dados Abertos | Em breve | Catálogo nacional de dados públicos |
-
-## 🚧 Status
-
-Este projeto está em desenvolvimento e será atualizado continuamente com novas fontes de dados, documentação e repositórios especializados.
+| Instituição | Portal Oficial | Laboratório Local | Escopo dos Dados |
+| :--- | :--- | :--- | :--- |
+| **IBGE** | [Portal de Dados](https://dados.ibge.gov.br/) | 📁 [Acessar](./datasets/ibge/) | Estatísticas, Censos, Malhas Municipais, API SIDRA e Indicadores Socioeconômicos. |
+| **BACEN** | [Dados Abertos BC](https://dadosabertos.bcb.gov.br/) | 📁 [Acessar](./datasets/bacen/) | Indicadores Econômicos, API de Séries Temporais (SGS) e Dados Financeiros. |
+| **DATASUS** | [OpenDATA SUS](https://opendatasus.saude.gov.br/) | 📁 [Acessar](./datasets/datasus/) | Dados públicos de saúde, internações, epidemiologia e infraestrutura hospitalar. |
+| **INPI** | [Dados Abertos INPI](https://www.gov.br/inpi/pt-br/acesso-a-informacao/dados-abertos) | 📁 [Acessar](./datasets/inpi/) | Base de dados de marcas, patentes e propriedade intelectual no Brasil. |
+| **INEP** | [Dados Abertos INEP](https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos) | 📁 [Acessar](./datasets/inep/) | Microdados da Educação, ENEM, IDEB, Enade e Censo Escolar. |
+| **INMET** | [Portal INMET](https://portal.inmet.gov.br/) | 📁 [Acessar](./datasets/inmet/) | Séries históricas meteorológicas, dados de estações e clima em tempo real. |
+| **INPE** | [Dados Abertos INPE](http://www.inpe.br/dados_abertos/) | 📁 [Acessar](./datasets/inpe/) | Dados ambientais, sensoriamento remoto, focos de queimadas e desmatamento. |
+| **Gov.br** | [Dados.gov.br](https://dados.gov.br/) | 📁 [Acessar](./datasets/govbr/) | Catálogo nacional de dados públicos e portais de transparência federal. |
 
 ---
-
-⭐ Este repositório funciona como o índice das bases de dados públicas brasileiras. Cada instituição possuirá um repositório dedicado com documentação, scripts, exemplos de uso e materiais relacionados.
